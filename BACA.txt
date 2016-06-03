@@ -1,0 +1,26 @@
+Info Mengenai syarat dan ketentuan, baca di http://
+
+Panduan Penggunaan:
+1. Configurasi URL aplikasi:
+	- Buka folder application/config dan edit berkas config.php
+	- Ubah $config['base_url'] dengan alamat project root di server anda
+
+2. Basis data MySQL (.sql)
+	- Buka dan akses aplikasi phpmyadmin
+	- Langsung import berkas cari file MySQL.sql pada pada folder (root)
+	- Tanpa perlu membuat nama basis data terlebih dulu
+	
+3. Configurasi basis data:
+	- Buka folder application/config dan edit berkas database.php
+	- Ubah koneksi ke server yang anda gunakan
+	
+4. Urutan Pengisian data:
+	1) Guru
+	2) Kelas
+	3) Mata Pelajaran
+	4) Siswa / murid
+	6) Bank Soal
+	7) Topik Ujian
+5. Login admin:
+	- username : combats
+	- password : combats
