@@ -1,0 +1,10 @@
+.clr { clear:both; }
+
+.pager{margin: 0; float:right;}
+.pager ul{float: right;}
+.pager li.results{margin-right: 2px;}
+.pager ul li{color: #000; float: left; margin: 0 3px 0 3px; line-height:14px;}
+.pager ul li a{color: #000; font-size: 12px; text-decoration: none;}
+.pager ul li a:hover{text-decoration:underline;}
+.pager ul li a.active{color: #3399cc; text-decoration:underline;}
+.pager ul li.select{border-left:1px solid #999; padding-left:10px; margin-left:5px;}
